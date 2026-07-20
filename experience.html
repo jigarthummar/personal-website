@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Experience · Jigar Thummar</title>
+<meta name="description" content="Professional experience of Jigar Thummar — ZS Associates, VaultAI, Gilbert Research Center." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="wrap">
+      <a href="index.html" class="brand">Jigar Thummar</a>
+      <div class="nav-links">
+        <a href="index.html">about</a>
+        <a href="experience.html" class="active">experience</a>
+        <a href="cv.html">cv</a>
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☀</button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="wrap">
+      <h1 class="page-title">experience</h1>
+
+      <div class="entry-block">
+        <div class="entry-head">
+          <h3>Associate Engineer – AI</h3>
+          <span class="when">Mar 2026 – Present</span>
+        </div>
+        <p class="entry-org">ZS Associates <span class="place">· Canada</span></p>
+        <ul>
+          <li>Designed and built LangGraph agents that author <strong>CMC</strong> (Chemistry, Manufacturing &amp; Controls) regulatory documents for a global pharmaceutical client — improving output correctness while <strong>cutting authoring time by 50%</strong>.</li>
+          <li>Built <strong>RAG systems and agent tools</strong> that ground generation in source material, so agents produce accurate, context-appropriate content.</li>
+          <li>Architected scalable <strong>AWS ECS</strong> services to isolate compute-heavy authoring and document-mapping workloads, keeping them independent from the core application.</li>
+          <li>Designing an agentic <strong>HAQ</strong> (Health Authority Questions) feature — LangGraph agents that draft responses to regulator questions raised after CMC submissions.</li>
+        </ul>
+      </div>
+
+      <div class="entry-block">
+        <div class="entry-head">
+          <h3>AI Engineer · Early Employee</h3>
+          <span class="when">Mar 2025 – Mar 2026</span>
+        </div>
+        <p class="entry-org">VaultAI <span class="place">· Vancouver, Canada</span></p>
+        <ul>
+          <li>Architected an AI-powered client intake portal for private credit firms, enabling <strong>natural-language analytics</strong> on financial data and automated extraction from unstructured PDFs.</li>
+          <li>Engineered an autonomous <strong>Due-Diligence Agent</strong> that orchestrates multi-source web research to synthesize credit risk and legal compliance into production-ready PDF reports.</li>
+          <li>Designed a Multi-Company Financial Comparison Agent to benchmark fiscal performance across entities, <strong>reducing manual comparison effort by 60%</strong>.</li>
+          <li>Built secure <strong>RAG pipelines for 100+ confidential documents</strong>, ensuring enterprise-grade privacy and reliable grounding for complex inquiries.</li>
+          <li>Developed automated auditing workflows (Financial Health Checks, Bluesheet generation) using Supabase and Edge Functions for real-time processing.</li>
+          <li>Fine-tuned Llama models with <strong>QLoRA</strong> for domain terminology — a 15% accuracy improvement with reduced inference latency.</li>
+        </ul>
+      </div>
+
+      <div class="entry-block">
+        <div class="entry-head">
+          <h3>Data Science Intern</h3>
+          <span class="when">May 2023 – Jul 2023</span>
+        </div>
+        <p class="entry-org">Gilbert Research Center <span class="place">· Coimbatore, India</span></p>
+        <ul>
+          <li>Applied Pandas, NumPy, and OpenCV to run ETL on <strong>10K+ medical X-ray images</strong>, with data-quality checks and normalization pipelines for deep learning.</li>
+          <li>Trained CNN models in PyTorch on medical imaging datasets, achieving <strong>87% classification accuracy</strong> for early-stage diagnostics.</li>
+          <li>Implemented data augmentation and cross-validation, improving robustness and reducing overfitting by 12% on test data.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year"></span> Jigar Thummar · <a href="mailto:jigarthummar35@gmail.com">jigarthummar35@gmail.com</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

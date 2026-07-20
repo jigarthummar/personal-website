@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CV · Jigar Thummar</title>
+<meta name="description" content="CV of Jigar Thummar — general information, education, experience, skills, and projects." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="wrap">
+      <a href="index.html" class="brand">Jigar Thummar</a>
+      <div class="nav-links">
+        <a href="index.html">about</a>
+        <a href="experience.html">experience</a>
+        <a href="cv.html" class="active">cv</a>
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☀</button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="wrap">
+      <div class="cv-header">
+        <h1 class="page-title">cv</h1>
+        <a class="cv-pdf" href="Jigar_Thummar_Resume.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M12 18v-6"/><path d="m9 15 3 3 3-3"/></svg>
+          Résumé PDF
+        </a>
+      </div>
+
+      <div class="cv-layout">
+        <!-- Sidebar -->
+        <aside class="cv-side">
+          <a href="#general">General Information</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+        </aside>
+
+        <!-- Content -->
+        <div>
+          <!-- General Information -->
+          <section class="cv-card" id="general">
+            <h2>General Information</h2>
+            <div class="gi-row"><div class="k">Full Name</div><div class="v">Jigar Thummar</div></div>
+            <div class="gi-row"><div class="k">Role</div><div class="v">Associate Engineer – AI @ ZS Associates</div></div>
+            <div class="gi-row"><div class="k">Location</div><div class="v">Burnaby, BC, Canada</div></div>
+            <div class="gi-row"><div class="k">Email</div><div class="v"><a href="mailto:jigarthummar35@gmail.com">jigarthummar35@gmail.com</a></div></div>
+            <div class="gi-row"><div class="k">Phone</div><div class="v">+1 (236) 660-7656</div></div>
+          </section>
+
+          <!-- Education -->
+          <section class="cv-card" id="education">
+            <h2>Education</h2>
+
+            <div class="cv-entry">
+              <div><span class="date-badge">2024 – 2025</span></div>
+              <div class="body">
+                <h3>Master of Professional Studies in Analytics</h3>
+                <p class="inst">Northeastern University <span class="place">· Vancouver, Canada</span></p>
+                <ul><li>GPA <strong>4.0 / 4.0</strong></li></ul>
+              </div>
+            </div>
+
+            <div class="cv-entry">
+              <div><span class="date-badge">2019 – 2023</span></div>
+              <div class="body">
+                <h3>B.Tech in Computer Science &amp; Engineering</h3>
+                <p class="inst">Parul University <span class="place">· Vadodara, India</span></p>
+                <ul><li>GPA <strong>8.2 / 10</strong></li></ul>
+              </div>
+            </div>
+
+            <div class="cv-entry">
+              <div><span class="date-badge">2022</span></div>
+              <div class="body">
+                <h3>Exchange Semester · Information Security</h3>
+                <p class="inst">ITMO University <span class="place">· Saint Petersburg, Russia</span></p>
+                <ul><li>GPA <strong>4.3 / 5</strong></li></ul>
+                <div class="courses"><span>Modern Cryptographic Algorithms</span><span>Machine Learning</span><span>Web Software Development</span></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Experience -->
+          <section class="cv-card" id="experience">
+            <h2>Experience</h2>
+
+            <div class="cv-entry">
+              <div><span class="date-badge">2026 – Present</span></div>
+              <div class="body">
+                <h3>Associate Engineer – AI</h3>
+                <p class="inst">ZS Associates <span class="place">· Canada</span></p>
+                <ul>
+                  <li>Built LangGraph agents that author <strong>CMC</strong> regulatory documents for a global pharma client — <strong>50% faster</strong> authoring with higher correctness.</li>
+                  <li>Developed <strong>RAG systems and agent tools</strong> that ground generation in source material.</li>
+                  <li>Architected scalable <strong>AWS ECS</strong> services to isolate compute-heavy authoring and document-mapping workloads.</li>
+                  <li>Designing an agentic <strong>HAQ</strong> (Health Authority Questions) feature answering regulator questions post-submission.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cv-entry">
+              <div><span class="date-badge">2025 – 2026</span></div>
+              <div class="body">
+                <h3>AI Engineer · Early Employee</h3>
+                <p class="inst">VaultAI <span class="place">· Vancouver, Canada</span></p>
+                <ul>
+                  <li>Engineered an autonomous <strong>Due-Diligence Agent</strong> synthesizing multi-source research into production-ready PDF reports.</li>
+                  <li>Built secure <strong>RAG pipelines for 100+ confidential documents</strong> and a multi-company comparison agent (−60% manual effort).</li>
+                  <li>Fine-tuned Llama models with <strong>QLoRA</strong> for a 15% accuracy gain and reduced latency.</li>
+                </ul>
+                <ul style="margin-top:6px;"><li><a href="experience.html">See full experience →</a></li></ul>
+              </div>
+            </div>
+
+            <div class="cv-entry">
+              <div><span class="date-badge">2023</span></div>
+              <div class="body">
+                <h3>Data Science Intern</h3>
+                <p class="inst">Gilbert Research Center <span class="place">· Coimbatore, India</span></p>
+                <ul>
+                  <li>Ran ETL on <strong>10K+ medical X-ray images</strong> and trained CNNs in PyTorch to <strong>87% accuracy</strong> for early diagnostics.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- Skills -->
+          <section class="cv-card" id="skills">
+            <h2>Skills</h2>
+            <div class="skill-group">
+              <h4>AI &amp; Agentic Systems</h4>
+              <div class="chips"><span>Multi-Agent Systems</span><span>RAG</span><span>LLM Fine-Tuning (QLoRA)</span><span>Prompt Engineering</span><span>NLP</span><span>Model Evaluation &amp; Guardrails</span></div>
+            </div>
+            <div class="skill-group">
+              <h4>Frameworks &amp; Libraries</h4>
+              <div class="chips"><span>LangChain</span><span>LangGraph</span><span>Hugging Face</span><span>PyTorch</span><span>TensorFlow</span><span>scikit-learn</span><span>XGBoost</span><span>FastAPI</span></div>
+            </div>
+            <div class="skill-group">
+              <h4>Languages &amp; Databases</h4>
+              <div class="chips"><span>Python</span><span>SQL</span><span>R</span><span>PostgreSQL</span><span>MongoDB</span><span>Supabase</span><span>Vector DBs</span></div>
+            </div>
+            <div class="skill-group">
+              <h4>Data Engineering</h4>
+              <div class="chips"><span>ETL Pipelines</span><span>Pandas</span><span>NumPy</span><span>PySpark</span><span>Hadoop</span><span>Data Normalization</span></div>
+            </div>
+            <div class="skill-group">
+              <h4>Cloud &amp; MLOps</h4>
+              <div class="chips"><span>AWS</span><span>GCP</span><span>Docker</span></div>
+            </div>
+            <div class="skill-group" style="margin-bottom:0;">
+              <h4>Visualization &amp; Analytics</h4>
+              <div class="chips"><span>Tableau</span><span>Power BI</span><span>Grafana</span><span>Matplotlib</span></div>
+            </div>
+          </section>
+
+          <!-- Projects -->
+          <section class="cv-card" id="projects">
+            <h2>Projects</h2>
+
+            <div class="cv-entry">
+              <div><span class="date-badge">2025</span></div>
+              <div class="body">
+                <h3>EduSense — 🏆 2nd Place, Deloitte AI Hackathon</h3>
+                <ul>
+                  <li>AI research assistant with a RAG pipeline structuring unstructured data from <strong>25+ sources</strong>, plus an interactive dashboard for proactive, data-driven RFPs.</li>
+                </ul>
+                <div class="courses"><span>RAG</span><span>LLMs</span><span>Dashboard</span></div>
+              </div>
+            </div>
+
+            <div class="cv-entry">
+              <div><span class="date-badge">2025</span></div>
+              <div class="body">
+                <h3>Real-Time Indoor Air-Quality Analytics</h3>
+                <ul>
+                  <li>End-to-end IoT ETL pipeline and forecasting models (ARIMA, XGBoost) predicting CO₂ with <strong>90% accuracy</strong>, deployed to a Grafana dashboard with alerting.</li>
+                </ul>
+                <div class="courses"><span>IoT</span><span>ARIMA</span><span>XGBoost</span><span>Grafana</span></div>
+              </div>
+            </div>
+
+            <div class="cv-entry">
+              <div><span class="date-badge">2024</span></div>
+              <div class="body">
+                <h3>DDoS Attack Detection in Network Traffic</h3>
+                <ul>
+                  <li>Engineered 10+ features from <strong>22M+ traffic records</strong> with PySpark and applied unsupervised learning (Isolation Forest, K-Means), flagging 376 high-risk instances across 11 clusters.</li>
+                </ul>
+                <div class="courses"><span>PySpark</span><span>Isolation Forest</span><span>K-Means</span></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year"></span> Jigar Thummar · <a href="mailto:jigarthummar35@gmail.com">jigarthummar35@gmail.com</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
